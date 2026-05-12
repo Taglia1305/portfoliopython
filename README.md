@@ -1,4 +1,3 @@
-Markdown
 # 🚀 My Programming Portfolio
 
 Benvenuti nel mio repository di progetti! Questa cartella raccoglie i miei lavori di programmazione, focalizzati sulla risoluzione di problemi reali attraverso lo sviluppo di algoritmi efficienti e la manipolazione di dati.
