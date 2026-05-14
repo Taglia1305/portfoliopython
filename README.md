@@ -1,49 +1,51 @@
-# 🚀 My Programming Portfolio
+# Programming Portfolio
 
-Benvenuti nel mio repository ufficiale! Qui raccolgo i miei lavori di programmazione in **Python**, focalizzati sulla risoluzione di problemi reali, l'analisi di dataset storici e lo sviluppo di applicativi interattivi.
+Welcome to my official repository. This space showcases my work in Python programming, with a primary focus on solving real-world problems, analyzing historical datasets, and developing functional, interactive applications.
 
-Ogni progetto in questo portfolio rappresenta una sfida tecnica superata, dall'ottimizzazione degli algoritmi alla gestione complessa delle strutture dati.
-
----
-
-## 📂 I Miei Progetti Principali
-
-### ⚽ Digital Serie A - Analisi Statistica
-Un sistema di analisi dati focalizzato sul campionato di calcio italiano 2008-09.
-- **Funzionalità**: Calcolo punti dinamico, statistiche Vittorie/Pareggi/Sconfitte e generazione automatica della classifica.
-- **Tecniche**: Manipolazione di tuple, gestione dei punteggi condizionale e dizionari di riepilogo.
-
-### 📚 Book Software - Gestione Biblioteca Digitale
-Un applicativo interattivo per la gestione di un catalogo librario professionale.
-- **Funzionalità**: Sistema di input in tempo reale, gestione prestiti, ricerca avanzata e aggiornamento dello stato dei volumi.
-- **Tecniche**: Programmazione interattiva (input runtime), cicli continui e database in-memory.
-
-### 📞 Analisi Traffico Telefonico
-Un software per l'elaborazione di grandi quantità di dati telefonici e fatturazione.
-- **Funzionalità**: Pulizia dati (Data Cleaning), calcolo bollette con bonus e analisi congestione celle.
-- **Tecniche**: Gestione File I/O, medie statistiche e filtraggio di record corrotti.
+Each project within this portfolio represents a technical challenge addressed through algorithmic optimization and the management of complex data structures.
 
 ---
 
-## 🛠️ Competenze Tecniche
-- **Linguaggi**: Python 3 (Core, Data Structures)
-- **Strutture Dati**: Dizionari nidificati, Liste di Tuple, Set per dati univoci.
-- **Problem Solving**: Gestione di casi limite (*edge cases*), validazione dati e logica condizionale complessa.
-- **Strumenti**: Git, GitHub, Google Colab, Markdown.
+## Main Projects
+
+### Digital Serie A - Statistical Analysis
+A data analysis system centered on the 2008-09 Italian football season.
+* **Functionality**: Dynamic point calculation, Win/Draw/Loss statistics, and automated league table generation.
+* **Methodology**: Tuple manipulation, conditional scoring logic, and summary dictionaries.
+
+### Book Software - Digital Library Management
+An interactive application designed for the management of professional book catalogs.
+* **Functionality**: Real-time input system, loan management, advanced search features, and volume status updates.
+* **Methodology**: Interactive runtime programming, continuous loops, and in-memory databases.
+
+### Telecommunications Traffic Analysis
+Software developed for the processing of large-scale telephony data and automated billing.
+* **Functionality**: Data cleaning, bill calculation including bonuses, and cell congestion analysis.
+* **Methodology**: File I/O management, statistical averaging, and filtering of corrupted records.
 
 ---
 
-## 📈 Filosofia di Sviluppo
-Il mio obiettivo è scrivere codice che non sia solo funzionante, ma:
-1. **Leggibile**: Facile da manutenere e ben commentato.
-2. **Robusto**: Capace di gestire dati sporchi o input utente imprevisti.
-3. **Efficiente**: Ottimizzato per ridurre i tempi di esecuzione anche su dataset estesi.
+## Technical Skills
+
+* **Languages**: Python 3 (Core, Data Structures)
+* **Data Structures**: Nested Dictionaries, Lists of Tuples, Sets for unique data handling.
+* **Problem Solving**: Edge case management, data validation, and complex conditional logic.
+* **Tools**: Git, GitHub, Google Colab, Markdown.
 
 ---
 
-## 📫 Contatti
-- **LinkedIn**: [Andrea Tagliabue](https://www.linkedin.com/in/andrea-tagliabue-b70aa1206/?locale=it)
-- **Email**: andrea.tagliabue1305@gmail.com
-- **GitHub**: **inserire link appena pronto**
+## Development Philosophy
+
+My goal is to write code that is not only functional but also adheres to the following principles:
+
+1. **Readability**: Clean, maintainable code with comprehensive documentation.
+2. **Robustness**: Designed to handle inconsistent data or unexpected user inputs reliably.
+3. **Efficiency**: Optimized to maintain performance even when processing extensive datasets.
 
 ---
+
+## Contact
+
+* **LinkedIn**: [Andrea Tagliabue](https://www.linkedin.com/in/andrea-tagliabue-b70aa1206/)
+* **Email**: [andrea.tagliabue1305@gmail.com](mailto:andrea.tagliabue1305@gmail.com)
+* **GitHub**: [[Your Profile Link]](https://github.com/Taglia1305/portfoliopython)
