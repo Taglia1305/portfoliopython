@@ -48,4 +48,4 @@ My goal is to write code that is not only functional but also adheres to the fol
 
 * **LinkedIn**: [Andrea Tagliabue](https://www.linkedin.com/in/andrea-tagliabue-b70aa1206/)
 * **Email**: [andrea.tagliabue1305@gmail.com](mailto:andrea.tagliabue1305@gmail.com)
-* **GitHub**: [[Your Profile Link]](https://github.com/Taglia1305/portfoliopython)
+* **GitHub**: [[My Profile Link]](https://github.com/Taglia1305/portfoliopython)
