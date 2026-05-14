@@ -15,13 +15,13 @@ infinito (`while True`) che permette operazioni multiple senza interruzioni.
 ## Architettura del Software
 Il cuore del sistema è un menu di comando che permette di accedere alle seguenti
 funzioni:
-1. ** Inserimento Manuale**: L'utente inserisce titolo e autore per
+1. **Inserimento Manuale**: L'utente inserisce titolo e autore per
 registrare un nuovo libro nel database temporaneo.
-2. ** Ricerca e Filtro**: Algoritmi che scansionano la memoria locale per
+2. **Ricerca e Filtro**: Algoritmi che scansionano la memoria locale per
 trovare titoli o autori specifici.
-3. ** Gestione Prestiti**: Modifica dello stato dei libri (Disponibile/In
+3. **Gestione Prestiti**: Modifica dello stato dei libri (Disponibile/In
 Prestito) con validazione immediata.
-4. ** Report di Sessione**: Visualizzazione completa del catalogo creato
+4. **Report di Sessione**: Visualizzazione completa del catalogo creato
 dall'utente durante il runtime.
 ## Note Tecniche
 * **Data Storage**: Il catalogo è salvato in una lista di dizionari all'interno
