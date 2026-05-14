@@ -1,44 +1,49 @@
 # 🚀 My Programming Portfolio
 
-Benvenuti nel mio repository di progetti! Questa cartella raccoglie i miei lavori di programmazione, focalizzati sulla risoluzione di problemi reali attraverso lo sviluppo di algoritmi efficienti e la manipolazione di dati.
+Benvenuti nel mio repository ufficiale! Qui raccolgo i miei lavori di programmazione in **Python**, focalizzati sulla risoluzione di problemi reali, l'analisi di dataset storici e lo sviluppo di applicativi interattivi.
 
-## 👤 Chi Sono
-Sono uno studente/sviluppatore appassionato di **Python** e analisi dei dati. Mi piace trasformare dataset grezzi in informazioni utili e automatizzare processi complessi attraverso il codice.
+Ogni progetto in questo portfolio rappresenta una sfida tecnica superata, dall'ottimizzazione degli algoritmi alla gestione complessa delle strutture dati.
 
-## 📂 Struttura del Portfolio
+---
 
-Il portfolio è organizzato in diverse sezioni, ognuna dedicata a una specifica sfida tecnica:
+## 📂 I Miei Progetti Principali
 
-### 📞 Analisi Traffico Telefonico (Progetto Corrente)
-Un sistema completo per l'elaborazione di dati telefonici che include:
-- **Data Cleaning**: Filtrazione di record corrotti e validazione temporale.
-- **Business Logic**: Calcolo di bollette mensili con sistemi di bonus e tariffe.
-- **Network Analysis**: Identificazione di celle congestionate tramite medie statistiche.
-- **Tecnologie**: Python (Dizionari, Tuple, File I/O).
+### ⚽ Digital Serie A - Analisi Statistica
+Un sistema di analisi dati focalizzato sul campionato di calcio italiano 2008-09.
+- **Funzionalità**: Calcolo punti dinamico, statistiche Vittorie/Pareggi/Sconfitte e generazione automatica della classifica.
+- **Tecniche**: Manipolazione di tuple, gestione dei punteggi condizionale e dizionari di riepilogo.
 
-*(Aggiungi qui altri progetti futuri)*
-### 📊 [Nome Progetto 2]
-- Descrizione breve di cosa fa il progetto.
-- **Tecnologie**: Es. SQL, Pandas, Matplotlib.
+### 📚 Book Software - Gestione Biblioteca Digitale
+Un applicativo interattivo per la gestione di un catalogo librario professionale.
+- **Funzionalità**: Sistema di input in tempo reale, gestione prestiti, ricerca avanzata e aggiornamento dello stato dei volumi.
+- **Tecniche**: Programmazione interattiva (input runtime), cicli continui e database in-memory.
+
+### 📞 Analisi Traffico Telefonico
+Un software per l'elaborazione di grandi quantità di dati telefonici e fatturazione.
+- **Funzionalità**: Pulizia dati (Data Cleaning), calcolo bollette con bonus e analisi congestione celle.
+- **Tecniche**: Gestione File I/O, medie statistiche e filtraggio di record corrotti.
 
 ---
 
 ## 🛠️ Competenze Tecniche
-- **Linguaggi**: Python (Core, Data Structures)
-- **Strumenti**: Git, GitHub, Google Colab
-- **Concetti**: Algoritmi di ordinamento e filtraggio, Gestione File, Strutture Dati complesse (Dizionari nidificati, Liste di Tuple).
+- **Linguaggi**: Python 3 (Core, Data Structures)
+- **Strutture Dati**: Dizionari nidificati, Liste di Tuple, Set per dati univoci.
+- **Problem Solving**: Gestione di casi limite (*edge cases*), validazione dati e logica condizionale complessa.
+- **Strumenti**: Git, GitHub, Google Colab, Markdown.
 
-## 📈 Obiettivi
-Il mio obiettivo con questo portfolio è dimostrare la mia capacità di:
-1. Scrivere codice pulito, leggibile e ben documentato.
-2. Gestire casi limite (edge cases) e dati sporchi.
-3. Risolvere problemi logico-matematici in modo efficiente.
+---
+
+## 📈 Filosofia di Sviluppo
+Il mio obiettivo è scrivere codice che non sia solo funzionante, ma:
+1. **Leggibile**: Facile da manutenere e ben commentato.
+2. **Robusto**: Capace di gestire dati sporchi o input utente imprevisti.
+3. **Efficiente**: Ottimizzato per ridurre i tempi di esecuzione anche su dataset estesi.
 
 ---
 
 ## 📫 Contatti
-- **GitHub**: [Il tuo link qui]
-- **LinkedIn**: (https://www.linkedin.com/in/andrea-tagliabue-b70aa1206/?locale=it)
+- **LinkedIn**: [Andrea Tagliabue](https://www.linkedin.com/in/andrea-tagliabue-b70aa1206/?locale=it)
 - **Email**: andrea.tagliabue1305@gmail.com
+- **GitHub**: [Il tuo link verrà inserito alla pubblicazione]
 
 ---
