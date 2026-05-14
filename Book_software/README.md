@@ -1,34 +1,27 @@
-# Book Software - Gestione Biblioteca Digitale Interattiva
-Questo progetto Python simula un sistema di gestione per una biblioteca digitale
-basato interamente sull'interazione in tempo reale. A differenza dei sistemi
-statici, questo software non richiede dataset esterni in ingresso, ma viene
-popolato dinamicamente dall'utente durante l'esecuzione.
+# Digital Library Management System
+
+This project is an interactive Python application designed to manage a professional book catalog. It simulates a library environment, allowing for real-time data entry, search, and status tracking of literary volumes.
+
+## Project Overview
+The software provides a command-line interface (CLI) that enables librarians or administrators to maintain a digital database of books. It handles everything from simple inventory logging to complex status updates such as loan tracking and availability management.
+
+### Key Features
+* **Dynamic Cataloging**: Allows for the real-time addition of new titles, including metadata such as author, ISBN, and genre.
+* **Advanced Search Engine**: Implements filtering logic to locate specific volumes within the database based on multiple criteria.
+* **Loan & Availability Tracking**: A dedicated system to update the status of each book (e.g., Available, Loaned, Under Maintenance), ensuring the database reflects the current state of the library.
+* **Interactive CLI**: A user-friendly, loop-based interface that processes user commands at runtime without needing to restart the application.
+
+### Technical Implementation
+* **In-Memory Data Structures**: Utilizes nested dictionaries and lists to manage the library database efficiently during the session.
+* **Runtime Input Validation**: Includes robust checks to ensure user inputs (such as IDs or dates) are correctly formatted before being committed to the system.
+* **State Management**: Implements logic to handle the transition of book statuses, preventing errors like "double-loaning" a volume.
+* **Modular Logic**: The code is structured into specific functions for data entry, search, and reporting, ensuring high maintainability.
+
 ---
-## Obiettivi e Filosofia del Progetto
-Il software è progettato come un **applicativo in-memory**, dove l'intera
-struttura dei dati viene costruita e gestita durante la sessione di lavoro:
-* **Popolamento Dinamico**: Il sistema parte da uno stato vuoto, lasciando
-all'utente il compito di inserire i volumi e creare il catalogo.
-* **Ciclo Operativo Continuo**: Utilizza un menu interattivo gestito da un ciclo
-infinito (`while True`) che permette operazioni multiple senza interruzioni.
-* **Gestione Stato**: Monitoraggio immediato delle disponibilità e dei prestiti.
-## Architettura del Software
-Il cuore del sistema è un menu di comando che permette di accedere alle seguenti
-funzioni:
-1. **Inserimento Manuale**: L'utente inserisce titolo e autore per
-registrare un nuovo libro nel database temporaneo.
-2. **Ricerca e Filtro**: Algoritmi che scansionano la memoria locale per
-trovare titoli o autori specifici.
-3. **Gestione Prestiti**: Modifica dello stato dei libri (Disponibile/In
-Prestito) con validazione immediata.
-4. **Report di Sessione**: Visualizzazione completa del catalogo creato
-dall'utente durante il runtime.
-## Note Tecniche
-* **Data Storage**: Il catalogo è salvato in una lista di dizionari all'interno
-della memoria RAM (Runtime-only).
-* **Interfaccia**: Terminale interattivo con controllo degli input dell'utente.
-* **Control Flow**: Struttura a cicli continui e condizionali nidificati.
----
-**Autore:** Taglia1305
-**Tecnologie:** Python 3, Dynamic Data Management, User Interaction
-**Tecnologie:** Python 3, Gestione Dizionari, GitHub
+
+## How it Works
+The application runs in a continuous loop, presenting the user with a menu of options. Each action is processed through dedicated functions that interact with the central data structure, providing immediate feedback on the success of each operation.
+
+### Future Improvements
+* **Persistent Storage**: Integration with SQL or JSON files to save the catalog state between sessions.
+* **User Authentication**: Implementation of different access levels for guests and administrators.
