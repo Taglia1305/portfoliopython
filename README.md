@@ -38,7 +38,7 @@ Il mio obiettivo con questo portfolio è dimostrare la mia capacità di:
 
 ## 📫 Contatti
 - **GitHub**: [Il tuo link qui]
-- **LinkedIn**: [Il tuo link qui]
-- **Email**: [La tua email qui]
+- **LinkedIn**: (https://www.linkedin.com/in/andrea-tagliabue-b70aa1206/?locale=it)
+- **Email**: andrea.tagliabue1305@gmail.com
 
 ---
