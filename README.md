@@ -44,6 +44,6 @@ Il mio obiettivo è scrivere codice che non sia solo funzionante, ma:
 ## 📫 Contatti
 - **LinkedIn**: [Andrea Tagliabue](https://www.linkedin.com/in/andrea-tagliabue-b70aa1206/?locale=it)
 - **Email**: andrea.tagliabue1305@gmail.com
-- **GitHub**: [Il tuo link verrà inserito alla pubblicazione]
+- **GitHub**: **inserire link appena pronto**
 
 ---
