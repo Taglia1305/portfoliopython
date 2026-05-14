@@ -1,40 +1,18 @@
-# Digital Serie A - Analisi Stagione 2008-09
-Benvenuti nel repository dedicato all'analisi statistica del campionato di
-calcio italiano di Serie A per la stagione 2008-2009. Questo progetto utilizza
-Python per trasformare dati grezzi in informazioni utili e classifiche
-dinamiche.
----
-## Obiettivi del Progetto
-L'applicazione è stata sviluppata per automatizzare il calcolo delle prestazioni
-delle squadre, risolvendo problemi complessi di gestione dati attraverso:
-* **Parsing dei Dati**: Elaborazione di una lista di tuple contenente i
-risultati storici.
-* **Logica di Punteggio**: Calcolo automatico dei punti (Vittoria: 3, Pareggio:
-1, Sconfitta: 0).
-* **Statistiche Avanzate**: Estrazione del numero di vittorie, pareggi e
-sconfitte per ogni club.
-## Funzionalità Tecniche
-Il cuore del software risiede in tre funzioni principali sviluppate in Python:
-1. **`calcola_punti(squadra)`**: Analizza ogni partita della lista `li`,
-identifica se la squadra ha giocato in casa o trasferta e accumula il punteggio
-totale.
-2. **`stat_squadra(squadra)`**: Restituisce una tupla dettagliata con il
-conteggio di Vittorie, Pareggi e Sconfitte (V, P, S).
-3. **`classifica_finale()`**: Scansiona l'intero dataset, identifica tutte le
-squadre univoche e genera un dizionario completo dei punti stagionali.
-## Struttura del Dataset
-I dati sono organizzati in una lista chiamata `li`. Ogni elemento è una tupla
-così composta:
-`("DATA", "CASA", "TRASFERTA", GOL_CASA, GOL_TRASFERTA)`
-*Esempio: ("31/8/08", "Udinese", "Palermo", 3, 1)*
-## Come Utilizzare il Progetto
-1. Aprire il file `.ipynb` (Jupyter Notebook).
-2. Eseguire la cella di inizializzazione dei dati.
-3. Utilizzare le funzioni integrate per interrogare il database:
-```python
-v, p, s = stat_squadra("Inter")
-print(f"Risultati Inter: {v}V, {p}P, {s}S")
+# Digital Serie A - Historical Football Data Analytics
 
----
-**Autore:** Taglia1305
-**Tecnologie:** Python 3, Markdown, Jupyter Notebook
+This project features a specialized data analysis system focused on the 2008-2009 Italian Football League (Serie A). It demonstrates how to transform raw match results into a structured league table and detailed team statistics using Python.
+
+## Project Overview
+The application processes a comprehensive dataset of season matches to reconstruct the final standings and analyze performance trends. It serves as a practical example of handling structured data and implementing conditional sports-scoring logic.
+
+### Key Features
+* **Dynamic Standings Generation**: Automated calculation of points, goal differences, and position rankings based on match outcomes.
+* **Performance Metrics**: Detailed breakdown of Wins, Draws, and Losses (W/D/L) for each participating team, both for home and away matches.
+* **Matchday Simulation**: Logic that allows for the reconstruction of the league's progress through different stages of the season.
+* **Statistical Insights**: Identification of top-performing teams and defensive/offensive efficiency metrics.
+
+### Technical Implementation
+* **Complex Data Mapping**: Extensive use of nested dictionaries to store multi-dimensional team data (points, goals scored/conceded, match results).
+* **Conditional Logic**: Robust implementation of the "3 points for a win, 1 for a draw" rule, integrated with tie-breaking criteria.
+* **Efficient Aggregation**: Algorithms designed to parse through hundreds of match records and aggregate results into a concise summary.
+* **Data Integrity**: Systems to ensure that every match is accounted for and that the generated standings reflect historical accuracy.
